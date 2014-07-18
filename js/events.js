@@ -2,19 +2,21 @@ $(function() {
 	
 	$(document).ready(function (){
 
-	   	$('.m-carousel').carousel({
-			  dragRadius: 10
-			, moveRadius: 20
-			, classPrefix: undefined
-			, classNames: {
-			    outer: "carousel"
-			  , inner: "carousel-inner"
-			  , item: "item"
-			  , center: "center"
-			  , touch: "has-touch"
-			  , dragging: "dragging"
-			  , active: "active"
-			}
+	   	$("#owl-demo").owlCarousel({
+
+			// "singleItem:true" is a shortcut for:
+			//items : 4
+			// itemsDesktop : false,
+			// itemsDesktopSmall : false,
+			// itemsTablet: false,
+			// itemsMobile : false
+
+			navigation : false, // Show next and prev buttons
+			slideSpeed : 300,
+			paginationSpeed : 400,
+			singleItem:true,
+			autoPlay: true
+
 		});
 	});
 });
