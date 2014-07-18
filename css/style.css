@@ -1,0 +1,222 @@
+body{
+	/*background-image: url(images/texture.png);
+  	background-repeat:repeat;*/
+  	background-image: url(images/imagen2.jpg);
+}
+
+#panel_content{
+	margin-top: 0px;
+	position: relative;
+	height: 100%;
+
+}
+
+#banner_top{
+	position: fixed;
+	margin-top: -16px;
+	background: -webkit-linear-gradient(#0D79CD,#095691);
+    background: -moz-linear-gradient(#0D79CD,#095691);
+	
+	/*background: -webkit-radial-gradient(#0D79CD,#095691, #05406E);
+    background: -moz-radial-gradient(#0D79CD,#095691, #05406E);*/
+	height: 70px;
+
+	position: relative;
+	margin-left: 15%;
+	margin-right: 15%;
+
+	padding: 10px;
+}
+
+.shadow-corner-bottom{
+	box-shadow: 0 1px 10px gray;
+}
+
+.shadow-corner-bottom:before, .shadow-corner-bottom:after{
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+.shadow-corner-bottom:before{
+    bottom: 20px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.shadow-corner-bottom:after{
+    bottom: 20px;
+    width: 50%;
+    height: 20%;
+    right: 10px;
+    left: auto;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+
+#logo {
+	float: left;	
+}
+
+#logo img{
+	max-width: 100%;
+	max-height: 120%;
+}
+
+
+#menu ul li a{
+	position: relative;
+	float: right;
+	margin-top: 6px;
+}
+
+#menu ul{
+
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 30px;
+}
+
+#menu li{
+
+	display: inline;
+}
+
+#menu a{
+	/*border: 2px solid black;*/
+	text-decoration: none;
+	font-size: 15px;
+
+	display: inline-block;
+	width: 90px;
+	height: 60%;
+	text-align: center;
+	line-height: 400%;
+	color: white;
+
+	margin-left: 6px;
+
+}
+
+#menu a:hover{
+	background-color: #042B46;
+	height: 80%;
+
+	-webkit-border-radius: 2px 5px;  /* Safari  */
+  	-moz-border-radius: 2px 5px;     /* Firefox */
+
+	background: -webkit-radial-gradient(#042B46, #042B46);
+    background: -moz-radial-gradient(#042B46, #042B46);
+}
+
+#subcontent{
+	position: relative;
+	margin-top: 20px;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+
+	-webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+}
+
+#galery_photos{
+	position: relative;
+	margin-top: 10px;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+#galery_photos img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#legend{
+	position: relative;
+	margin-top: 10px;
+	margin-right: 3%;
+	margin-left: 3%;
+	height: 80px;
+
+	background: -webkit-radial-gradient(#0D79CD,#095691, #05406E);
+    background: -moz-radial-gradient(#0D79CD,#095691, #05406E);
+
+    -webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+}
+
+#legend h1{
+	position: relative;
+	margin-top: 10px;
+	color: white;
+	font-size: 12px;
+}
+
+
+
+#banner_down {
+	position: relative;
+	
+	background: -webkit-linear-gradient(#0D79CD,#095691);
+    background: -moz-linear-gradient(#0D79CD,#095691);
+	-webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+
+	margin-left: -12px;
+	margin-top: 20px;
+
+    width: 100%;
+    height: 40px;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+#banner_down h2 {
+	color: white;
+	text-indent: 30px;
+	font-size: 12px;
+	font-family: "Corbel", serif;
+	float: left
+}
+
+#fb{
+	float: left;
+	margin-left: 100px;
+	width: 17px;
+	height: 17px;
+	background: black;
+	border: 1px solid #374B7A; 
+	-webkit-border-radius: 80px 80px;  /* Safari  */
+  	-moz-border-radius: 80px 80px;     /* Firefox */
+
+	padding: 5px;
+}
+
+#fb:hover{
+	background: #B50404;
+}
+
+
+#fb img{
+	max-width: 100%;
+	max-height: 100%;
+}
