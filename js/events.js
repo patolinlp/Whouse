@@ -1,5 +1,5 @@
+
 $(function() {
-	
 	$(document).ready(function (){
 
 	   	$("#owl-demo").owlCarousel({
@@ -19,4 +19,7 @@ $(function() {
 
 		});
 	});
+	
 });
+
+
