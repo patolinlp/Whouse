@@ -1,5 +1,6 @@
-<php
-	include("php/images.php")
+<?php
+	include("php/inicio.php");
+	include("php/nosotros.php");
 ?>
 
 <html>
@@ -12,19 +13,16 @@
 		<script type="text/javascript" src="js/events.js"></script>
 		<script type="text/javascript" src="js/control.js"></script>
 		
-
 		<!-- Style css -->
 		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 		<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
 		<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-		
-		<title>Window House</title>
-
-
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
 	</head>
+
+	<title id="title">Window House/Inicio</title>
 
 	<body style="background-image: url(images/sos.png);">
 		<div id="panel_content">
@@ -36,32 +34,29 @@
 				<div id="menu">
 					<ul>
 						<div id="menu-btn">
-							<li><a href="#">Contacto <span>Contáctenos</span></a></li>
+							<li><a href="#" id="contact"><i class="fa fa-phone"></i> Contacto <span>Contáctenos</span></a></li>
 						</div>
 						<div id="menu-btn">
-							<li><a href="#">Trabajos<span>Nuestro Trabajo</span></a></li>
+							<li><a href="#" id="us_work"><i class="fa fa-gavel"></i> <!-- <i class="fa fa-wrench"></i> --> Trabajos <span>Nuestro Trabajo</span></a></li>
 						</div>
 						<div id="menu-btn">
-							<li><a href="#">Servicios<span>Nuestros Servicios</span></a></li>
+							<li><a href="#" id="service"><i class="fa fa-suitcase"></i> Servicios <span>Nuestros Servicios</span></a></li>
 						</div>
 						<div id="menu-btn">
-							<li><a href="#">Galería<span>Conozcanos</span></a></li>
+							<li><a href="#" id="galery"><i class="fa fa-caret-square-o-right"></i><!-- <i class="fa fa-picture-o"></i> --> Galería <span>Conozcanos</span></a></li>
 						</div>
 						<div id="menu-btn">
-							<li><a href="#">Nosotros<span>¿Quiénes Somos?</span></a></li>
+							<li><a href="#" id="who-are-us"><i class="fa fa-users"></i> Nosotros <span>¿Quiénes Somos?</span></a></li>
 						</div>
 						<div id="menu-btn">
-							<li><a href="#">Inicio<span>Bienvenidos</span></a></li>
+							<li><a href="#" id="welcome"><i class="fa fa-info"></i> Inicio <span>Bienvenidos</span></a></li>
 						</div>
 					</ul>
 				</div>
 			</div>
 
-			<div id="subcontent">
-				
+			<div id="subcontent" class="box-shadow">
 				<div id="galery_photos">
-
-
 					<div id="owl-demo" class="owl-carousel owl-theme">
 					    <div class="item">
 					      <img src="images/carousel/imagen1.jpg" alt="Owl Image">
@@ -83,7 +78,7 @@
 				</div>
 			</div>
 			
-			<div id="banner_down">
+			<div id="banner_down" class="box-shadow">
 				<h2>Vidriería © | PandP Develop vidriería@vidriería.cl - 55555555</h2>
 				
 				<div id="fb">
