@@ -22,16 +22,16 @@
 		<link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css?v=2.1.5" type="text/css" >
 		
 		<script type="text/javascript">
+
 			$(document).ready(function() {
 				$(".fancybox").attr('rel', 'gallery').fancybox(
 					{padding : 0},
 					{beforeLoad: function() {this.title = $(this.element).attr('caption');}},
 					{helpers : {	overlay : {	css : {'background' : ' rgba(0, 1, 26, 0.8)'}}}}
 				);
+				console.log("script fancybox");
 
 			});
-			
-    	
 		</script>
 
 		
@@ -39,8 +39,8 @@
 	</head>
 
 	<body>
-		<div id="galery_photos">
-			<div id="galery">
+		<div>
+			<div>
 				<a class="fancybox"  caption="Titulo1" href="images/galery/image1_b.jpg"><img src="images/galery/image1_s.jpg" alt=""></a>
 				<a class="fancybox"  caption="Titulo2" href="images/galery/image2_b.png"><img src="images/galery/image2_s.png" alt=""></a>
 				<a class="fancybox"  caption="Titulo3" href="images/galery/image3_b.jpg"><img src="images/galery/image3_s.jpg" alt=""></a>
