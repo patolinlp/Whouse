@@ -17,9 +17,6 @@ $(function() {
 			singleItem:true,
 			autoPlay: true
 		});
-
-
-
 		$("#welcome").click(function(){
 			document.title = "Window House/Inicio";
 			$("#subcontent").load("php/inicio.php");
@@ -58,5 +55,4 @@ $(function() {
 	});
 	
 });
-
 
