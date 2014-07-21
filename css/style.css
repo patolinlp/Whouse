@@ -8,18 +8,27 @@ body{
 	margin-top: 0px;
 	position: relative;
 	height: 100%;
-
 }
 
+
+/*------------------Banner top------------------*/
 #banner_top{
 	position: fixed;
 	margin-top: -16px;
-	background: -webkit-linear-gradient(#0D79CD,#095691);
-    background: -moz-linear-gradient(#0D79CD,#095691);
 	
-	/*background: -webkit-radial-gradient(#0D79CD,#095691, #05406E);
-    background: -moz-radial-gradient(#0D79CD,#095691, #05406E);*/
-	height: 70px;
+	/*Style 1 Elegant*/
+	background: -webkit-linear-gradient(#303030,#303030);
+    background: -moz-linear-gradient(#303030,#303030);
+	
+	/*Style 2 Colorido Personalizado*/
+	/*background: -webkit-linear-gradient(#0D79CD,#095691);
+    background: -moz-linear-gradient(#0D79CD,#095691);*/
+
+    /*Style 3 Cyanide*/
+    /*background: -webkit-linear-gradient(#0D79CD,#095691);
+    background: -moz-linear-gradient(#0D79CD,#095691);*/
+
+	height: 90px;
 
 	position: relative;
 	margin-left: 10%;
@@ -29,7 +38,7 @@ body{
 }
 
 .shadow-corner-bottom{
-	box-shadow: 0 1px 10px gray;
+	box-shadow: 0 8px 10px gray;
 }
 
 .shadow-corner-bottom:before, .shadow-corner-bottom:after{
@@ -42,7 +51,7 @@ body{
     left: 10px;
     width: 50%;
     height: 20%;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
@@ -55,14 +64,13 @@ body{
     height: 20%;
     right: 10px;
     left: auto;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     -o-transform: rotate(5deg);
     transform: rotate(5deg);
 }
-
 
 #logo {
 	float: left;	
@@ -73,11 +81,9 @@ body{
 	max-height: 120%;
 }
 
-
 #menu ul li a{
 	position: relative;
 	float: right;
-	margin-top: 6px;
 }
 
 #menu ul{
@@ -86,99 +92,221 @@ body{
 	padding: 0px;
 	margin: 0px;
 	margin-right: 30px;
+	height: 100%;
 }
 
 #menu li{
-
 	display: inline;
 }
 
 #menu a{
-	border: 2px solid black;
+	margin-top: 8px;
 	text-decoration: none;
-	font-size: 15px;
-
-	display: inline-block;
+	font-size: 17px;
 	width: 90px;
-	height: 60%;
+	height: 80%;
 	text-align: center;
-	line-height: 400%;
+	line-height: 100%;
 	color: white;
-
 	margin-left: 6px;
+	padding-top: 20px;
+}
+
+#menu span{
+	display: block;
+	font-size: 11px;
 }
 
 #menu a:hover{
-	background-color: #042B46;
-	height: 80%;
+	margin-top: 8px;
+	height: 60%;
 
-	-webkit-border-radius: 2px 5px;  /* Safari  */
-  	-moz-border-radius: 2px 5px;     /* Firefox */
+	/*-webkit-border-radius: 2px 5px;  
+  	-moz-border-radius: 2px 5px;     
+	*/
 
-	background: -webkit-radial-gradient(#042B46, #042B46);
-    background: -moz-radial-gradient(#042B46, #042B46);
+	/*background: -webkit-radial-gradient(#4D4D4D, #000000);
+    background: -moz-radial-gradient(#4D4D4D, #000000);*/
+	background: #00C2A5;
 }
+/*------------------------------------------------------*/
 
+
+/*------------------Panel de contenido------------------*/
 #subcontent{
 	position: relative;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-right: 10%;
 	margin-left: 10%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 30px;
 	background-color: white;
+	height: 130%;
+}
+/*------------------------------------------------------*/
 
-	-webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
-	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
-	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+/*------------------All sections------------------*/
+#section_banner{
+	background: #303030;
+	height: 70px;
+	width: 98%;
+	padding-top: 3px;
+	padding-left: 20px;
 }
 
+#section_banner h1{
+	color: #00C2A5;
+	font-size: 25px;
+}
+
+#subtitle{
+	
+}
+
+#subtitle h1{
+	font-size: 25px;
+}
+
+#subtitle_separation{
+
+}
+
+/*------------------------------------------------------*/
+
+/*------------------Inicio------------------*/
 #galery_photos{
-	position: relative;
-	margin-top: 10px;
-	margin-right: 3%;
-	margin-left: 3%;
+	
 }
 
 #owl-demo .item img{
     display: block;
-    width: 100%;
-    height: 80%;
-
+    max-width: 100%;
+    height: 607px;
 }
 
 #legend{
-	position: relative;
-	margin-top: 10px;
-	margin-right: 3%;
-	margin-left: 3%;
 	height: 80px;
+	margin-top: 30px;
+	background: #303030;
 
-	background: -webkit-radial-gradient(#0D79CD,#095691, #05406E);
-    background: -moz-radial-gradient(#0D79CD,#095691, #05406E);
-
-    -webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
-	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
-	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	/*background: -webkit-linear-gradient(#0D79CD,#095691);
+    background: -moz-linear-gradient(#0D79CD,#095691);*/
 }
 
 #legend h1{
 	position: relative;
 	margin-top: 10px;
 	color: white;
-	font-size: 12px;
+	font-size: 16px;
+	margin-bottom: 10%;
+}
+
+/*------------------------------------------------------*/
+
+/*------------------Nosotros------------------*/
+#double_section{
+	
+}
+
+#text{
+	margin-left: 20px;
+}
+
+#text_important{
+	
+}
+
+#text_important p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+#text_content{
+	width: 100%;
+}
+
+#text_content p{
+	font-size: 17px;
+	text-align: justify;
+}
+
+#photo{
+	float: left;
+	padding: 20px;
+}
+
+#photo img{
+	max-width: 100%;
+	max-height: 100%;
 }
 
 
+/*------------------------------------------------------*/
 
+/*------------------Galeria------------------*/
+
+/*------------------------------------------------------*/
+
+/*------------------Servicio------------------*/
+
+/*------------------------------------------------------*/
+
+/*------------------Trabajos------------------*/
+
+/*------------------------------------------------------*/
+
+/*------------------Contacto------------------*/
+
+#text_content{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#text_content p{
+	margin: 0px;
+}
+
+#text_content label{
+	width: 60%;
+}
+
+#input{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+#input p{
+	margin: 0px;
+	float: left;
+	width: 30%;
+}
+
+#input input{
+	width: 70%;
+}
+
+#input textarea{
+	width: 70%;
+	resize: none;
+}
+
+#button{
+	float: right;
+}
+
+/*------------------------------------------------------*/
+
+/*------------------Banner Down------------------*/
 #banner_down {
 	position: relative;
+
+	background: #00C2A5;
 	
-	background: -webkit-linear-gradient(#0D79CD,#095691);
-    background: -moz-linear-gradient(#0D79CD,#095691);
-	-webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
-	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
-	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	/*background: -webkit-linear-gradient(#0D79CD,#095691);
+    background: -moz-linear-gradient(#0D79CD,#095691);*/
+	
 
 	margin-left: -12px;
 	margin-top: 20px;
@@ -205,7 +333,6 @@ body{
 	width: 17px;
 	height: 17px;
 	background: black;
-	border: 1px solid #374B7A; 
 	-webkit-border-radius: 80px 80px;  /* Safari  */
   	-moz-border-radius: 80px 80px;     /* Firefox */
 
@@ -218,6 +345,28 @@ body{
 
 
 #fb img{
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 80%;
+	max-height: 80%;
+}
+/*------------------------------------------------------*/
+
+.box-shadow {
+	-webkit-box-shadow: 1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	-moz-box-shadow:    1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+	box-shadow:         1px 0px 15px 0px rgba(50, 50, 50, 0.61);
+}
+
+.half-section{
+	width: 47%;
+}
+
+.complete-section{
+	width: 100%;
+}
+
+.left{
+	float: left;
+}
+
+.definition{
 }
