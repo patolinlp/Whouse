@@ -37,7 +37,7 @@
 				</div>
 			</div>
 
-			<div id="photo" class="half-section">
+			<div id="photo" class="half-section shadow_curve">
 				<a href=""><img src="images/Koala.jpg"></a>
 			</div>
 		</div>

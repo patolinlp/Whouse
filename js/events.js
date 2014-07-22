@@ -5,7 +5,7 @@ $(function(){
 			nombre : $("#nombre").val(),
 			email : $("#email").val(),
 			telefono : $("#telefono").val(),
-			mensaje : $("#textarea").val()
+			textarea : $("#textarea").val()
 		};
 		validarMail(json);
 	});

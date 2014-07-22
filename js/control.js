@@ -11,7 +11,7 @@ function start(){
 }
 
 function validarMail (json) {
-
+	console.log(json);
 	$.ajax({
 		data: json,
 		url: "php/mail.php",
@@ -19,10 +19,7 @@ function validarMail (json) {
 		async: false,
 		success: function (result){
 			
-			//console.log(json.parse(result));
-			var resultado = JSON.parse(result);
-			console.log(resultado);
-			
+
 		}
 	});
 

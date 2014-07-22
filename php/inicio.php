@@ -15,7 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 		<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
 		<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 
 		<script type="text/javascript">
 			$(document).ready(function (){
@@ -29,11 +29,12 @@
 					// itemsTablet: false,
 					// itemsMobile : false
 
-					navigation : false, // Show next and prev buttons
+					//navigation : false, // Show next and prev buttons
 					slideSpeed : 300,
 					paginationSpeed : 400,
 					singleItem:true,
-					autoPlay: true
+					autoPlay: true,
+					pagination: false
 				});
 			});
 		</script>
@@ -43,7 +44,7 @@
 	</head>
 
 	<body>
-		<div id="galery_photos">
+		<div id="galery_photos" class= "shadow_curve">
 			<div id="owl-demo" class="owl-carousel owl-theme">
 			    <div class="item">
 			      <img src="images/carousel/imagen1.jpg" alt="Owl Image">
@@ -60,7 +61,7 @@
 			</div>
 		</div>
 
-		<div id="legend">
+		<div id="legend" class= "shadow_curve">
 			<h1>"FOTOGRAFIAR ES COLOCAR LA CABEZA, EL OJO Y EL CORAZÓN EN UN MISMO EJE"</h1>
 		</div>
 	</body>

@@ -33,17 +33,17 @@
 					{helpers : {	overlay : {locked : true}}}
 				);
 			});
-		</script>	
+		</script>
 
 	</head>
 
 	<body>
 		<div>
-			<div>
-				<a class="fancybox"  caption="Titulo1" href="images/galery/image1_b.jpg"><img src="images/galery/image1_s.jpg" alt=""></a>
-				<a class="fancybox"  caption="Titulo2" href="images/galery/image2_b.png"><img src="images/galery/image2_s.png" alt=""></a>
-				<a class="fancybox"  caption="Titulo3" href="images/galery/image3_b.jpg"><img src="images/galery/image3_s.jpg" alt=""></a>
-				<a class="fancybox"  caption="Titulo4" href="images/galery/image4_b.png"><img src="images/galery/image4_s.png" alt=""></a>
+			<div id="galeryImages">
+				<a class="fancybox"  caption="Titulo1" href="images/galery/image1_b.jpg"><img src="images/galery/image1_b.jpg" alt=""></a>
+				<a class="fancybox"  caption="Titulo2" href="images/galery/image2_b.png"><img src="images/galery/image2_b.png" alt=""></a>
+				<a class="fancybox"  caption="Titulo3" href="images/galery/image3_b.jpg"><img src="images/galery/image3_b.jpg" alt=""></a>
+				<a class="fancybox"  caption="Titulo4" href="images/galery/image4_b.png"><img src="images/galery/image4_b.png" alt=""></a>
 
 			</div>
 		</div>

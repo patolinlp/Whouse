@@ -37,40 +37,41 @@ body{
 	padding: 10px;
 }
 
-.shadow-corner-bottom{
-	box-shadow: 0 8px 10px gray;
+.shadow_curve
+{
+  position: relative;
+}
+.shadow_curve:before, .shadow_curve:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: black;
+  -webkit-box-shadow: 0 15px 10px black;
+  -moz-box-shadow: 0 15px 10px black;
+  box-shadow: 0 15px 10px black;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.shadow_curve:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
 }
 
-.shadow-corner-bottom:before, .shadow-corner-bottom:after{
-    content: "";
-    position: absolute;
-    z-index: -2;
-}
-.shadow-corner-bottom:before{
-    bottom: 20px;
-    left: 10px;
-    width: 50%;
-    height: 20%;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
-    -webkit-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-}
-.shadow-corner-bottom:after{
-    bottom: 20px;
-    width: 50%;
-    height: 20%;
-    right: 10px;
-    left: auto;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
-}
 
 #logo {
 	float: left;	
@@ -245,6 +246,15 @@ body{
 
 /*------------------Galeria------------------*/
 
+#galeryImages{
+	width: 100%;
+}
+
+#galeryImages img{
+	width: 24%;
+	margin-left: 5px;
+}
+
 /*------------------------------------------------------*/
 
 /*------------------Servicio------------------*/
@@ -259,8 +269,6 @@ body{
 #map_canvas{
 	width: 400px;
     height: 300px;
-    
-
 }
 
 #text_content{
