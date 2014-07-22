@@ -5,7 +5,6 @@
 <html>
 
 	<head>
-<<<<<<< HEAD
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script>
 			function initialize(){
@@ -25,14 +24,12 @@
 			}
 			window.onload = loadScript;
 		</script>
-=======
 		<!-- Javascript -->
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/events.js"></script>
 		<script type="text/javascript" src="js/control.js"></script>
 		<!-- Style css -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
->>>>>>> fed0e73166fad5b5239ecfb6488623fa2c9f4178
 	</head>
 
 	<body onload="initialize()">
