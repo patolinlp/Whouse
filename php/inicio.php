@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="js/events.js"></script>
+		<script type="text/javascript" src="js/control.js"></script>
 
 		<!-- Style css -->
 		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
@@ -16,6 +17,26 @@
 		<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
+		<script type="text/javascript">
+			$(document).ready(function (){
+
+				$("#owl-demo").owlCarousel({
+
+					// "singleItem:true" is a shortcut for:
+					//items : 4
+					// itemsDesktop : false,
+					// itemsDesktopSmall : false,
+					// itemsTablet: false,
+					// itemsMobile : false
+
+					navigation : false, // Show next and prev buttons
+					slideSpeed : 300,
+					paginationSpeed : 400,
+					singleItem:true,
+					autoPlay: true
+				});
+			});
+		</script>
 		
 
 		

@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+$(function(){
+
+	$("#enviarmail").click(function(){
+		json = {
+			nombre : $("#nombre").val(),
+			email : $("#email").val(),
+			telefono : $("#telefono").val(),
+			mensaje : $("#textarea").val()
+		};
+		validarMail(json);
+=======
 
 $(function() {
 	$(document).ready(function (){
@@ -52,7 +64,18 @@ $(function() {
 			$("#subcontent").load("php/contacto.php");
 			return false;
 		});
+>>>>>>> 4f76c76dd8e0ccac1d59da619580668b58054902
 	});
-	
+
 });
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+=======
+>>>>>>> 4f76c76dd8e0ccac1d59da619580668b58054902
