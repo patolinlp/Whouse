@@ -5,6 +5,12 @@
 <html>
 
 	<head>
+		<!-- Javascript -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/events.js"></script>
+		<script type="text/javascript" src="js/control.js"></script>
+		<!-- Style css -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 	<body>
@@ -49,22 +55,22 @@
 				</div>
 				<div id="input" class="">
 					<p>Nombre</p>
-					<input type="text"/>
+					<input type="text" id="nombre" />
 				</div>
 				<div id="input" class="">
 					<p>Email</p>
-					<input type="text"/>
+					<input type="text" id="email"/>
 				</div>
 				<div id="input" class="">
 					<p>Teléfono</p>
-					<input type="text"/>
+					<input type="text" id="telefono"/>
 				</div>
 				<div id="input" class="">
 					<p>Mensaje</p>
-					<textarea rows="6"></textarea>
+					<textarea rows="6" id="textarea"></textarea>
 				</div>
 				<div id="button">
-					<button>Enviar</button>
+					<button id="enviarmail">Enviar</button>
 				</div>
 
 			</div>
