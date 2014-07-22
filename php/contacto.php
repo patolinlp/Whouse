@@ -5,34 +5,20 @@
 <html>
 
 	<head>
+		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script>
-			function initialize(){
-				
-				var mapOptions = {
-			      center: new google.maps.LatLng(44.5403, -78.5463),
-			      zoom: 8,
-			      mapTypeId: google.maps.MapTypeId.ROADMAP
-			    }
-				var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
-			}
-			function loadScript() {
-			  var script = document.createElement("script");
-			  script.type = "text/javascript";
-			  script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDLlQc3Ul8F0kTtFOjel7V58e1iU3kNYrM&sensor=false&callback=initialize";
-			  document.body.appendChild(script);
-			}
-			window.onload = loadScript;
-		</script>
+		<script type="text/javascript" src="js/controlContacto.js"></script>
+
 		<!-- Javascript -->
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/events.js"></script>
 		<script type="text/javascript" src="js/control.js"></script>
 		<!-- Style css -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	</head>
 
-	<body onload="initialize()">
+	<body>
 		<div id="section_banner" class="box-shadow">
 			<h1><i class="fa fa-phone"></i> Contáctenos</h1>
 		</div>
@@ -51,7 +37,7 @@
 
 		<div id="double_section" class="complete-section">
 			<div id="text" class="half-section left">
-				<!-- <div id="subtitle">
+				<div id="subtitle">
 					<h1><i class="fa fa-book"></i> Información de Contacto</h1>
 				</div>
 				<div id="input" class="definition left">
@@ -65,9 +51,9 @@
 				<div id="input" class="definition left">
 					<p>Email</p>
 					<label id="email">windowhouseltda@gmail.com</label>
-				</div> -->
+				</div>
 
-				<div id="map_canvas"> </div>
+				<div id="map_canvas" class="complete-section"> </div>
 			</div>
 
 
