@@ -37,7 +37,7 @@ body{
 	padding: 10px;
 }
 
-/*.shadow_curve
+.shadow_curve
 {
   position: relative;
 }
@@ -70,7 +70,7 @@ body{
   transform: rotate(3deg);
   right: 10px;
   left: auto;
-}*/
+}
 
 
 #logo {
