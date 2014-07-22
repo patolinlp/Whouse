@@ -1,13 +1,32 @@
 <?php
 
 ?>
-
+<!DOCTYPE html>
 <html>
 
 	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script>
+			function initialize(){
+				
+				var mapOptions = {
+			      center: new google.maps.LatLng(44.5403, -78.5463),
+			      zoom: 8,
+			      mapTypeId: google.maps.MapTypeId.ROADMAP
+			    }
+				var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
+			}
+			function loadScript() {
+			  var script = document.createElement("script");
+			  script.type = "text/javascript";
+			  script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDLlQc3Ul8F0kTtFOjel7V58e1iU3kNYrM&sensor=false&callback=initialize";
+			  document.body.appendChild(script);
+			}
+			window.onload = loadScript;
+		</script>
 	</head>
 
-	<body>
+	<body onload="initialize()">
 		<div id="section_banner" class="box-shadow">
 			<h1><i class="fa fa-phone"></i> Contáctenos</h1>
 		</div>
@@ -26,8 +45,8 @@
 
 		<div id="double_section" class="complete-section">
 			<div id="text" class="half-section left">
-				<div id="subtitle">
-					<h1>Información de Contacto</h1>
+				<!-- <div id="subtitle">
+					<h1><i class="fa fa-book"></i> Información de Contacto</h1>
 				</div>
 				<div id="input" class="definition left">
 					<p>Dirección</p>
@@ -40,12 +59,15 @@
 				<div id="input" class="definition left">
 					<p>Email</p>
 					<label id="email">windowhouseltda@gmail.com</label>
-				</div>
+				</div> -->
+
+				<div id="map_canvas"> </div>
 			</div>
+
 
 			<div id="text" class="half-section left">
 				<div id="subtitle">
-					<h1>Envíenos un Mensaje</h1>
+					<h1> <i class="fa fa-envelope-o"></i> Envíenos un Mensaje</h1>
 				</div>
 				<div id="input" class="">
 					<p>Nombre</p>
