@@ -27,16 +27,13 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$(".fancybox").attr('rel', 'gallery').fancybox(
-					{padding : 0},
+					
 					{beforeLoad: function() {this.title = $(this.element).attr('caption');}},
-					{helpers : {	overlay : {	css : {'background' : ' rgba(0, 1, 26, 0.8)'}}}}
+					{helpers : {	overlay : {css : {'background' : ' rgba(0, 1, 26, 0.8)'}}}},
+					{helpers : {	overlay : {locked : true}}}
 				);
-				console.log("script fancybox");
-
 			});
-		</script>
-
-		
+		</script>	
 
 	</head>
 
