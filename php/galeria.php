@@ -7,44 +7,53 @@
 		<meta charset="utf-8" />
 
 		<!-- Javascript -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="fancyBox/lib/jquery.mousewheel.pack.js"></script>
-		<script type="text/javascript" src="fancyBox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+		
+		<script type="text/javascript" src="js/jquery.swipebox.min.js"></script>
+		<script type="text/javascript" src="js/control.js"></script>
 		<script type="text/javascript" src="js/events.js"></script>
 
 		<!-- Optionally add helpers - button, thumbnail and/or media -->
 		
-		<script type="text/javascript" src="fancyBox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-		<script type="text/javascript" src="fancyBox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-		<script type="text/javascript" src="fancyBox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 		
 		<!-- Style css -->
-		<link rel="stylesheet" href="fancyBox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-		<link rel="stylesheet" href="fancyBox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-		<link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css?v=2.1.5" type="text/css" >
+
+		
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/swipebox.min.css">
 		
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$(".fancybox").attr('rel', 'gallery').fancybox(
+				$(".swipebox").swipebox({
 					
-					{beforeLoad: function() {this.title = $(this.element).attr('caption');}},
-					{helpers : {	overlay : {css : {'background' : ' rgba(0, 1, 26, 0.8)'}}}},
-					{helpers : {	overlay : {locked : true}}}
-				);
+				});
 			});
 		</script>
 
 	</head>
 
 	<body>
-		<div>
-			<div id="galeryImages">
-				<a class="fancybox"  caption="Titulo1" href="images/galery/image1_b.jpg"><img src="images/galery/image1_b.jpg" alt=""></a>
-				<a class="fancybox"  caption="Titulo2" href="images/galery/image2_b.png"><img src="images/galery/image2_b.png" alt=""></a>
-				<a class="fancybox"  caption="Titulo3" href="images/galery/image3_b.jpg"><img src="images/galery/image3_b.jpg" alt=""></a>
-				<a class="fancybox"  caption="Titulo4" href="images/galery/image4_b.png"><img src="images/galery/image4_b.png" alt=""></a>
-
+		<div id="section_banner" class="box-shadow">
+			<h1><i class="fa fa-users"></i> Imágenes</h1>
+		</div>
+		<div id="galeryImages">
+			<div >
+				<a class="swipebox" title="Titulo1" href="images/galery/1.jpg"><img src="images/galery/1.jpg" ></a>
+				<a class="swipebox" title="Titulo2" href="images/galery/2.jpg"><img src="images/galery/2.jpg" ></a>
+				<a class="swipebox" title="Titulo3" href="images/galery/3.jpg"><img src="images/galery/3.jpg" ></a>
+				<a class="swipebox" title="Titulo4" href="images/galery/4.jpg"><img src="images/galery/4.jpg" ></a>
+				<a class="swipebox" title="Titulo5" href="images/galery/5.jpg"><img src="images/galery/5.jpg" ></a>
+				<a class="swipebox" title="Titulo6" href="images/galery/6.jpg"><img src="images/galery/6.jpg" ></a>
+				<a class="swipebox" title="Titulo7" href="images/galery/7.jpg"><img src="images/galery/7.jpg"	></a>
+				<a class="swipebox" title="Titulo8" href="images/galery/8.jpg"><img src="images/galery/8.jpg"	></a>
+				<a class="swipebox" title="Titulo9" href="images/galery/9.jpg"><img src="images/galery/9.jpg" ></a>
+				<a class="swipebox" title="Titulo10" href="images/galery/10.jpg"><img src="images/galery/10.jpg"></a>
+				<!-- <a class="swipebox" title="Titulo11" href="images/galery/11.jpg"><img src="images/galery/11.jpg"></a> -->
+				<a class="swipebox" title="Titulo12" href="images/galery/12.jpg"><img src="images/galery/12.jpg"></a>
+				<a class="swipebox" title="Titulo13" href="images/galery/13.jpg"><img src="images/galery/13.jpg"></a>
+				<a class="swipebox" title="Titulo14" href="images/galery/14.jpg"><img src="images/galery/14.jpg"></a>
+				<a class="swipebox" title="Titulo15" href="images/galery/15.jpg"><img src="images/galery/15.jpg"></a>
+				<a class="swipebox" title="Titulo16" href="images/galery/16.jpg"><img src="images/galery/16.jpg"></a>
+				<a class="swipebox" title="Titulo17" href="images/galery/17.jpg"><img src="images/galery/17.jpg"></a>
 			</div>
 		</div>
 

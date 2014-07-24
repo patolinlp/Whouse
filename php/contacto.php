@@ -30,9 +30,13 @@
 				</div>
 			</div>
 
+			<div id="hrVertical">
+			</div>
+
 			<div id="text_content">
 				<p> Si le interesa nuestros trabajo y servicios, por favor contáctanos.</p>
 			</div>
+			<div class="clearer"></div>
 		</div>
 
 		<div id="double_section" class="complete-section">
@@ -40,13 +44,21 @@
 				<div id="subtitle">
 					<h1><i class="fa fa-book"></i> Información de Contacto</h1>
 				</div>
+
+				<div id="hrVertical">
+				</div>
+
 				<div id="input" class="definition left">
 					<p>Dirección</p>
-					<label id ="direction">Camilo Henriquez 797-A</label>
+					<label id ="direction">Camilo Henriquez 797-A Curicó</label>
 				</div>
 				<div id="input" class="definition left">
 					<p>Teléfono</p>
-					<label id ="telefono">78069897/7887492/79658246</label>
+					<div id="telefonos">
+						<label id ="telefono">78069897</label>
+						<label id ="telefono">78874921</label>
+						<label id ="telefono">79658246</label>
+					</div>
 				</div>
 				<div id="input" class="definition left">
 					<p>Email</p>
@@ -56,11 +68,17 @@
 				<div id="map_canvas" class="complete-section"> </div>
 			</div>
 
+			<div id="hrHorizontal">
+			</div>
 
 			<div id="text" class="half-section left">
 				<div id="subtitle">
 					<h1> <i class="fa fa-envelope-o"></i> Envíenos un Mensaje</h1>
 				</div>
+				
+				<div id="hrVertical">
+				</div>
+
 				<div id="input" class="">
 					<p>Nombre</p>
 					<input type="text" id="nombre" />
@@ -80,8 +98,8 @@
 				<div id="button">
 					<button id="enviarmail">Enviar</button>
 				</div>
-
 			</div>
+			<div class="clearer"></div>
 		</div>
 	</body>
 </html>

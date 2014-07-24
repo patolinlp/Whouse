@@ -21,15 +21,6 @@
 			$(document).ready(function (){
 
 				$("#owl-demo").owlCarousel({
-
-					// "singleItem:true" is a shortcut for:
-					//items : 4
-					// itemsDesktop : false,
-					// itemsDesktopSmall : false,
-					// itemsTablet: false,
-					// itemsMobile : false
-
-					//navigation : false, // Show next and prev buttons
 					slideSpeed : 300,
 					paginationSpeed : 400,
 					singleItem:true,
@@ -44,25 +35,25 @@
 	</head>
 
 	<body>
-		<div id="galery_photos" class= "shadow_curve">
+		<div id="galery_photos" class= "box-shadow shadow_photo">
 			<div id="owl-demo" class="owl-carousel owl-theme">
 			    <div class="item">
-			      <img src="images/carousel/imagen1.jpg" alt="Owl Image">
+			      <img src="images/carousel/h1.jpg" alt="Owl Image">
 			    </div>
 			    <div class="item">
-			      <img src="images/carousel/imagen2.jpg" alt="Owl Image">
+			      <img src="images/carousel/h2.jpg" alt="Owl Image">
 			    </div>
 			    <div class="item">
-			      <img src="images/carousel/imagen3.jpg" alt="Owl Image">
+			      <img src="images/carousel/h3.jpg" alt="Owl Image">
 			    </div>
 			    <div class="item">
-			      <img src="images/carousel/imagen4.jpg" alt="Owl Image">
+			      <img src="images/carousel/h4.jpg" alt="Owl Image">
 			    </div>
 			</div>
 		</div>
 
-		<div id="legend" class= "shadow_curve">
-			<h1>"FOTOGRAFIAR ES COLOCAR LA CABEZA, EL OJO Y EL CORAZÓN EN UN MISMO EJE"</h1>
+		<div id="legend" class= "box-shadow">
+			<h1>Calidad superior en aislamiento termico y acustico en ventanas en PVC y Deck de alto rendimiento en madera "WPC"</h1>
 		</div>
 	</body>
 

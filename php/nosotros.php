@@ -22,8 +22,9 @@
 			<div id="text" class="half-section left">
 				<div id="subtitle">
 					<h1>Nosotros</h1>
-					<div id="subtitle_separation">
-					</div>
+				</div>
+
+				<div id="hrVertical">
 				</div>
 
 				<div id="text_important" class="complete-section">
@@ -35,11 +36,16 @@
 						Hoy el centro de operaciones es Puerto Varas. Ciudad estratégicamente ubicada por ser la puerta de entrada a la maravillosa Patagonia chilena.
 					</p>
 				</div>
+
+				
+
 			</div>
 
-			<div id="photo" class="half-section shadow_curve">
+			<div id="photo" class="half-section">
 				<a href=""><img src="images/Koala.jpg"></a>
 			</div>
+
+			<div class="clearer"></div>
 		</div>
 
 		<div id="section_separate">
